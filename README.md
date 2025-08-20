@@ -1,6 +1,6 @@
 # NDTiff reader for MATLAB
 Allows loading of image data in [NDTiff format](https://github.com/micro-manager/NDStorage) into MATLAB. 
-The NDTiff file format is utilized by [Micro-Manager](https://micro-manager.org/Micro-Manager_File_Formats) and [Pycro-Manager](https://pycro-manager.readthedocs.io/en/latest/index.html) and is a more efficient alterantive to the conventional TIFF and OME-TIFF formats. 
+The NDTiff file format is utilized by [Micro-Manager](https://micro-manager.org/Micro-Manager_File_Formats) and [Pycro-Manager](https://pycro-manager.readthedocs.io/en/latest/index.html) and is a more efficient alterantive to the conventional TIFF and OME-TIFF formats. This package loads multi-dimensional datasets into intuitively-shaped 4-D or 5-D matrices, supports accessing only desired regions of the data, and provides access to the summary metadata. 
 
 ## Installation
 - Clone this repository or download the .m files and place them in your MATLAB working directory (or add them to your MATLAB path).
